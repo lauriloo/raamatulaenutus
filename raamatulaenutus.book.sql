@@ -11,40 +11,40 @@ create table RAAMATULAENUTUS.BOOK (
 
 /* Populate BOOK Table */
 INSERT INTO raamatulaenutus.BOOK(title,author,rentedout,comment,rentingdate)
-VALUES ('Title1','Author1',false,null,null);
+VALUES ('Kolm musketäri','Alexandre Dumas',false,null,null);
 
 INSERT INTO raamatulaenutus.BOOK(title,author,rentedout,comment,rentingdate)
-VALUES ('Title2','Author2',false,null,null);
+VALUES ('Kakskümmend aastat hiljem','Alexandre Dumas',false,null,null);
 
 INSERT INTO raamatulaenutus.BOOK(title,author,rentedout,comment,rentingdate)
-VALUES ('Title3','Author3',false,null,null);
+VALUES ('12 tooli','Ilf ja Petrov',false,null,null);
 
 INSERT INTO raamatulaenutus.BOOK(title,author,rentedout,comment,rentingdate)
-VALUES ('Title4','Author4',false,null,null);
+VALUES ('Hukkunud Alpinisti hotell','Arkadi ja Boriss Strugatski',false,null,null);
 
 INSERT INTO raamatulaenutus.BOOK(title,author,rentedout,comment,rentingdate)
-VALUES ('Title5','Author5',false,null,null);
+VALUES ('Linn ja tähed','Arthur C. Clarke',false,null,null);
 
 INSERT INTO raamatulaenutus.BOOK(title,author,rentedout,comment,rentingdate)
-VALUES ('Title6','Author6',false,null,null);
+VALUES ('Kaart ja territoorium','Michel Houellebecq',false,null,null);
 
 INSERT INTO raamatulaenutus.BOOK(title,author,rentedout,comment,rentingdate)
-VALUES ('Title7','Author7',false,null,null);
+VALUES ('Idoru','William Gibson',false,null,null);
 
 INSERT INTO raamatulaenutus.BOOK(title,author,rentedout,comment,rentingdate)
-VALUES ('Title8','Author8',false,null,null);
+VALUES ('Kevad','Oskar Luts',false,null,null);
 
 INSERT INTO raamatulaenutus.BOOK(title,author,rentedout,comment,rentingdate)
-VALUES ('Title9','Author9',false,null,null);
+VALUES ('Suvi','Oskar Luts',false,null,null);
 
 INSERT INTO raamatulaenutus.BOOK(title,author,rentedout,comment,rentingdate)
-VALUES ('Title10','Author10',false,null,null);
+VALUES ('Kuritöö ja karistus','Fjodor Dostojevski',false,null,null);
 
 INSERT INTO raamatulaenutus.BOOK(title,author,rentedout,comment,rentingdate)
-VALUES ('Title11','Author11',false,null,null);
+VALUES ('Lilled Algernonile','Daniel Keyes',false,null,null);
 
 INSERT INTO raamatulaenutus.BOOK(title,author,rentedout,comment,rentingdate)
-VALUES ('Title12','Author12',false,null,null);
+VALUES ('Igaviku lõpp','Isaac Asimov',false,null,null);
 
 
 
