@@ -1,0 +1,10 @@
+	Paigaldusjuhend.
+
+
+	1. Peab olema töötav MySql server, millel on tekitat tühi baas nimega "raamatulaenutus" (dependencied: application.yml ja raamatulaenutus.books.sql).
+	2. Pane application.yml faili õiged username ja password.
+	3. Täida baas sisuga -> raamatulaenutus.books.sql.
+	4. Ehita rakendus kokku -> mvn install (projekti juurkataloogis).
+	5. Käivita rakendus -> java -jar target/raamatulaenutus-1.0-SNAPSHOT.jar (ikka projekti juurikas)
+	    // 4-5a. Käivita rakendus Idea's
+	6. ava rakendus brauseris -> http://localhost:8080/laenutus/
