@@ -1,12 +1,8 @@
 package ee.meriloo.laenutus.repositories;
 
-import ee.meriloo.laenutus.model.User;
+import ee.meriloo.laenutus.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long> {
-
-    User findByName(String name);
-
-}
+public interface BookRepository extends JpaRepository<Book, Long> {}

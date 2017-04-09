@@ -25,9 +25,7 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@EnableJpaRepositories(basePackages = "ee.meriloo.laenutus.repositories",
-		entityManagerFactoryRef = "entityManagerFactory",
-		transactionManagerRef = "transactionManager")
+@EnableJpaRepositories(basePackages = "ee.meriloo.laenutus.repositories")
 @EnableTransactionManagement
 public class JpaConfiguration {
 
