@@ -26,7 +26,7 @@ public class BookRestApiController {
 	// -------------------Retrieve All Books---------------------------------------------
 
 	@RequestMapping(value = "/book/", method = RequestMethod.GET)
-	public ResponseEntity listAllUsers() {
+	public ResponseEntity listAllBooks() {
 		List<Book> books = bookService.findAllBooks();
 		if (books.isEmpty()) return new ResponseEntity(HttpStatus.NO_CONTENT);
 		return new ResponseEntity<>(books, HttpStatus.OK);
